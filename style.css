@@ -1,0 +1,69 @@
+
+body {
+    background:#f7cddd ;
+    font-family: 'Orbitron', sans-serif;
+    margin: 2em;
+        /* cursor: url('https://media.giphy.com/media/3gRWfmZMI0Cb2Hoaye/giphy.gif') default; */
+
+  }
+  
+  h1 {
+    color: #84c456;
+  }
+  
+
+  .vid{
+
+    display: grid;
+    object-position: center|center|center;
+    grid-template-columns: 6px 65px;
+    grid-template-rows: 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px;
+    grid-gap: 10px;
+ 
+
+
+
+
+  }
+
+ 
+  .work {
+    display: inline-grid;
+    grid-template-columns: 605px 605px;
+    grid-template-rows: 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px;
+    grid-gap: 10px;
+ 
+  }
+  
+  .grid-item {
+     
+    border: none;
+    padding: 0px;
+    font-size: 0px;
+    text-align: center;
+  }
+  
+  iframe { 
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  a:link, a:visited {
+    background-color: #84c456;
+    color: white;
+    border-radius: 10px;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #e3ffcf;
+    color: black;
+  }
+
+  
