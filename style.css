@@ -1,3 +1,4 @@
+/* CSS files add styling rules to your content */
 
 body {
     background:#f7cddd ;
@@ -15,8 +16,8 @@ body {
   .vid{
 
     display: grid;
-    object-position: center|center|center;
-    grid-template-columns: 6px 65px;
+    object-position:center;
+    grid-template-columns: 605px 605px;
     grid-template-rows: 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px;
     grid-gap: 10px;
  
