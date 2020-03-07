@@ -27,6 +27,17 @@ body {
 
   }
 
+.ill{
+   display: grid;
+    object-position:center;
+    grid-template-columns: 405px 405px;
+    grid-template-rows: 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px 605px;
+    grid-gap: 10px;
+   
+    
+    
+}
+
  
   .work {
     display: inline-grid;
