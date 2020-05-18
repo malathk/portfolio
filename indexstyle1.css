@@ -1,0 +1,141 @@
+/* CSS files add styling rules to your content */
+
+body {
+    background:black ;
+    font-family: 'Orbitron', sans-serif;
+    margin: 2em;
+        /* cursor: url('https://media.giphy.com/media/3gRWfmZMI0Cb2Hoaye/giphy.gif') default; */
+  
+  }
+  
+  h1 {
+    color: #f7cddd;
+    left: 50vw;
+  }
+  
+  iframeorigional { 
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+  #parent {
+    width:100vw ;
+    height: 100vh;
+    /* border:solid 1px #000; */
+    
+  }
+  iframe {
+    width:100vw;
+    height:100vh;
+    border:0px;
+  }
+  
+  #parent > button {
+    opacity: 0.3;
+    position:relative;
+    float: right;
+    /* right:35vw;
+    bottom:90vh; */
+    /* transition: 0.5s; */
+  }
+  #parent > button {
+    opacity: 1;
+  }  
+  .button{
+    font-family: 'Orbitron', sans-serif;
+    transform:translate(50%,0%);
+    margin-left: 50%;
+    margin-right:50%;
+    margin-bottom: 10%;
+    width: 40%;
+    font-size: 80%;
+    background-color: #f7cddd;
+    color: white;
+    border-radius: 10px;
+    padding: 14px 10px;
+    text-align: center; 
+    text-decoration: none;
+    position:absolute;
+    display: block; 
+     /* right:35vw;  */
+    bottom:90vh;
+  
+  }  
+ 
+  .btn-group button {
+    background-color: #f7cddd; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+  }
+  a:link, a:visited {
+    background-color: #f7cddd;
+    color: white;
+    border-radius: 10px;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+   
+    background-color: #c5eea842;
+    color: black;
+  }
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #f7cddd;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #f7cddd;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+   display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f100;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:#c5eea842}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
